@@ -131,29 +131,6 @@ h2 {
 	margin-left: 5%;
 	font-weight: bold;
 }
-.imput {
-	width: 100%;
-}
-
-input {
-	font-family: sans-serif;
-	font-size: 1.7rem;
-	padding: .5rem;
-}
-#enviar {
-	background-color: rgba(0,255,127);
-	border-radius: 15%;
-}
-#limpar {
-	background-color: rgba(178,34,34);
-	border-radius: 15%;
-}
-.button {
-	text-transform: uppercase;
-	width: 15%;
-	min-width: 10rem;
-}
-
 #grid-container {
 	background-color: rgba(160, 160, 160);
 }
@@ -165,7 +142,6 @@ input {
 	max-width: 120rem;
 	margin: 0 auto;
 }
-
 .grid-content {
 	background-color: #FFFFFF;
 	font-family: arial;
@@ -191,7 +167,24 @@ input {
 	border-radius: 2rem;
 	padding: .5rem;
 }
-
+.imput {
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 1.7rem;
+	padding: .5rem;
+}
+.button {
+	text-transform: uppercase;
+	width: 15%;
+	min-width: 10rem;
+	border-radius: 15%;
+}
+#enviar {
+	background-color: rgba(0,255,127);
+}
+#limpar {
+	background-color: rgba(178,34,34);
+}
 footer, footer p {
 	font-family: arial;
 	color: #FFFFFF;
