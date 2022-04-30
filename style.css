@@ -112,6 +112,7 @@ p {
 
 #form {
 	background-color: rgba(173, 216, 230);
+	color: #2F4F4F;
 }
 
 h2 {
@@ -136,9 +137,17 @@ input {
 	font-size: 1.7rem;
 	padding: .5rem;
 }
-
+#enviar {
+	background-color: rgba(0,255,127);
+	border-radius: 15%;
+}
+#limpar {
+	background-color: rgba(178,34,34);
+	border-radius: 15%;
+}
 .button {
 	text-transform: uppercase;
+	width: 10%;
 }
 
 #grid-container {
