@@ -162,12 +162,13 @@ input {
 	margin: 0 auto;
 }
 
-.grid div {
+.grid-content {
+	position: relative;
 	background-color: #FFFFFF;
 	font-family: arial;
 	text-align: center;
 	font-size: 1.6rem;
-	padding-top: .2rem;
+	padding: 1rem 0;
 }
 .img-grid {
 	width: 100%;
@@ -175,13 +176,17 @@ input {
 }
 .text-grid {
 	font-family: arial;
-	font-size: 1.7rem;
-	text-align: center;
+	font-size: 1.8rem;
+	text-align: justify;
 	font-weight: bold;
+	padding: 2rem;
 }
 .link-grid{
-	color: rgb(0, 128,0);
+	color: rgb(255, 255, 255);
 	font-weight: bold;
+	background-color: #000000;
+	border-radius: 2rem;
+	padding: .5rem;
 }
 
 footer, footer p {
