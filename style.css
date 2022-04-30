@@ -131,6 +131,9 @@ h2 {
 	margin-left: 5%;
 	font-weight: bold;
 }
+.imput {
+	width: 100%;
+}
 
 input {
 	font-family: sans-serif;
@@ -147,7 +150,8 @@ input {
 }
 .button {
 	text-transform: uppercase;
-	width: 10%;
+	width: 15%;
+	min-width: 10rem;
 }
 
 #grid-container {
