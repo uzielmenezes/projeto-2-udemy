@@ -116,7 +116,7 @@ p {
 
 h2 {
 	font-family: arial;	
-	padding: .1rem 0;
+	padding: 1rem 0;
 	font-size: 1.6rem;
 	text-align: center;
 	font-weight: bold;
@@ -162,7 +162,7 @@ h2 {
 .text-grid {
 	font-family: arial;
 	font-size: 1.8rem;
-	text-align: justify;
+	text-align: center;
 	font-weight: bold;
 	padding: 2rem;
 }
