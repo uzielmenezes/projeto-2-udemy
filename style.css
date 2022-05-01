@@ -85,15 +85,13 @@ button {
 .container {
 	background-color: #FFFFFF;
 	width: 85%;
-	box-shadow: .2em .2em #DCDCDC;
+	box-shadow: .1em .1em 1rem #DCDCDC;
 	margin: 0 auto;
 	padding: 1rem;
 	max-width: 100%; 
 	max-height: 80%;
 	min-width: 0;
 	min-height: 0;
-	box-shadow: .3rem .3rem 1rem;	
-
 }
 
 h1 {
@@ -133,8 +131,13 @@ h2 {
 	font-weight: bold;
 }
 #grid-container {
-	background-color: rgba(160, 160, 160);
-	box-shadow: .3rem .3rem 1rem;
+	margin: 0 auto;
+	padding: 1rem;
+	max-width: 100%; 
+	max-height: 80%;
+	min-width: 0;
+	min-height: 0;
+	width: 85%;
 }
 
 .grid {
@@ -145,6 +148,7 @@ h2 {
 	margin: 0 auto;
 }
 .grid-content {
+	box-shadow: .3rem .3rem 1rem;	
 	background-color: #FFFFFF;
 	font-family: arial;
 	text-align: center;
@@ -179,6 +183,7 @@ h2 {
 	width: 15%;
 	min-width: 10rem;
 	border-radius: 15%;
+	box-shadow: .	1rem .1rem;
 }
 #enviar {
 	background-color: rgba(0,255,127);
